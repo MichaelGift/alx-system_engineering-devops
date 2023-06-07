@@ -1,2 +1,2 @@
-#!/bin/bash
-cp -ru --target-directory=.. *.html
+#!/bin/bash 
+cp -ru *.html ../
