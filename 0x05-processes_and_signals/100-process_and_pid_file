@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Traps signals and creates PID file
+i=1
+echo $BASHPID > /var/run/myscript.pid
+trap 'echo "I hate the kill command"; rm /var/run/myscript.pid; exit 0;' SIGTERM
+trap 'echo "Y U no love me?!"' SIGINT
+trap 'rm /var/run/myscript.pid; exit 0;' SIGQUIT
+while [ $i -ne 2 ]
+do
+	echo 'To infinity and beyond'
+	sleep 2
+done;
