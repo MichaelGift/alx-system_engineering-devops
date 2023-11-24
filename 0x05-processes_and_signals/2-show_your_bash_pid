@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Filter processes to only bash related
+ps -faux | grep bash
