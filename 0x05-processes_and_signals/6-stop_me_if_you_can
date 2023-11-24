@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Finds and kills infinite loops
+pkill 4-to_infinitty_and_beyond
