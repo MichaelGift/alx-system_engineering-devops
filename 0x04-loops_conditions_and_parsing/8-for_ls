@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# ls current directory but only display what comes after the first -
+i=$(ls)
+for i in $i
+do echo "$i" | cut -d "-" -f2
+done
