@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Connects to a server using a private ket
+
+ssh ubunut@100.26.158.95 -i ~/.ssh/school
