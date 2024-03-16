@@ -8,7 +8,7 @@
 ## Timeline
 
 - **14:30 PST:** Login service alerts triggered due to a surge in failed login attempts.
-![Man throwing a computer](https://www.uuss.org/wp-content/uploads/2015/03/funny-gif-man-throws-monitor.gif)
+- ![Man throwing a computer](https://www.uuss.org/wp-content/uploads/2015/03/funny-gif-man-throws-monitor.gif)
 - **14:32 PST:** An engineer on-call identified the alert and began investigating. Initial suspicion was a potential DDoS attack.
 - **14:40 PST:** Investigation shifted towards login service health checks after no evidence of a DDoS attack was found.
 - **14:55 PST:** Database team was notified due to concerns about potential database connectivity issues.
@@ -16,7 +16,7 @@
 - **15:20 PST:** The incident was escalated to the development team responsible for the recent code update.
 - **15:30 PST:** Code review identified a bug causing excessive database connection requests.
 - **15:45 PST:** A hotfix was deployed to address the bug.
-![Hot fix](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDE4dXk4cm9jYXVqZjhvZ3Nhemhnam1yMWtsanhmend5Mjk3eGl6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AvMJCeu1EMmhG/giphy.gif)
+- ![Hot fix](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDE4dXk4cm9jYXVqZjhvZ3Nhemhnam1yMWtsanhmend5Mjk3eGl6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AvMJCeu1EMmhG/giphy.gif)
 - **16:30 PST:** Login service functionality recovered.
 - **16:45 PST:** All systems confirmed operational.
  
