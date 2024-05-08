@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This module contains a function to query Reddit API for subreddit subscribers."""
+"""This module contains a function to query
+Reddit API for subreddit subscribers."""
 import requests
 
 BASE_URL = """https://www.reddit.com"""
