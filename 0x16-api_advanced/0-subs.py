@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains functions used to get number of active subreddit subscribers
+Used to get number of active subreddit subscribers
 """
 import requests
 
@@ -9,7 +9,7 @@ BASE_URL = """https://www.reddit.com"""
 
 
 def number_of_subscribers(subreddit):
-    """GETs the number of subscribers in a given subreddit"""
+    """GET the number of subscribers in a given subreddit"""
 
     header = {
         'Accept': 'application/json',
