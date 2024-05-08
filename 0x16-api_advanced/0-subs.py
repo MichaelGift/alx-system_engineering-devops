@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""This module contains a function to query
-Reddit API for subreddit subscribers."""
+"""
+Contains functions used to get number of active subreddit subscribers
+"""
 import requests
 
 BASE_URL = """https://www.reddit.com"""
@@ -8,11 +9,8 @@ BASE_URL = """https://www.reddit.com"""
 
 
 def number_of_subscribers(subreddit):
-    """
-    Get the number of subscribers in a given subreddit.
+    """GETs the number of subscribers in a given subreddit"""
 
-    :param subreddit: target subreddit name
-    """
     header = {
         'Accept': 'application/json',
         'User-Agent': ' '.join([
